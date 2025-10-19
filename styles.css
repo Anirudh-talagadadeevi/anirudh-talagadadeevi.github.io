@@ -127,8 +127,8 @@ body {
 }
 
 .hero-img img {
-  width: 300px;
-  height: 300px;
+  width:300px;
+  height:300px;
   border-radius: 50%;
 }
 
@@ -219,7 +219,8 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
   width: 100%;
-  margin-top: 20px;
+  height: 60%;
+  margin-top: 5px;
 }
 
 .skill-card {
@@ -319,7 +320,8 @@ footer p{
 
 @media (max-width:720px) {
   .hero,.about,.skills,.contact{
-    padding:40px 50px;
+    padding:30px 30px 0px 30px;
+    margin: 40px 15px 0px 15px;
   }
   .hero{
     display: flex;
@@ -334,9 +336,26 @@ footer p{
     line-height:25px;
   }
   .skill-card{
-    padding:10px;
+    padding:4px 8px;
+  }
+  .skill-card h3{
+    margin-bottom:2px;
   }
   .skills-container{
     gap:20px;
+  }
+  .links{
+    flex-direction:row;
+  }
+  .links button{
+    width:23%;
+    display: flex;
+    justify-content:center;
+  }
+  .links button p{
+    display:none;
+  }
+  form,.data{
+    gap:15px;
   }
 }
