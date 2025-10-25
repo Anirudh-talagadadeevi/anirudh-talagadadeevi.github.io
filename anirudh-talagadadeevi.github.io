@@ -1,2 +1,0 @@
-
-anirudh-talagadadeevi.github.io
